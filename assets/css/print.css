@@ -1,0 +1,58 @@
+@media screen, print {
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight:200;
+    size:landscape;
+}
+
+table {
+    border-collapse:collapse;
+    width:100%;
+    table-layout:fixed;
+    -webkit-print-color-adjust:exact;
+}
+table td {
+    border: 1px solid #d0d0d0;
+    padding-left:5px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+    td, th {
+        font-size:15px;
+    }
+
+tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+th {
+    font-weight:200;
+}
+.role {
+/*    display:block;*/
+/*    font-size:12px;*/
+}
+h2 {
+    font-weight:200;
+}
+.pull-left {
+    float: left!important;
+}
+.pull-right {
+    float: right!important;
+}
+.clearfix {
+    clear:both;
+}
+
+.promo, .lastedit {
+    font-size:12px;
+}
+.date-th {
+    font-size:12px;
+}
+    
+}

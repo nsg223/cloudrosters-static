@@ -1,0 +1,290 @@
+@media print
+{    
+    .no-print
+    {
+        display: none !important;
+    }
+    td {
+        padding:2px;
+    }
+    .only-print {
+        display:block !important;
+    }
+}
+.roster-options label{
+  margin-bottom:10px;
+}
+
+.role {
+  display:block;
+  /* font-weight: bold; */
+}
+
+table.roster td {
+  border-right: 1px solid #C3C3C3;
+}
+.table {
+        border: 1px solid #C1C1C1;
+}
+
+table.roster td:last-child {
+  border-right: 0;
+}
+.date-th p {
+    margin:0;
+}
+.text-muted a {
+    color:#777 !important;
+}
+.spin{
+     -webkit-transform-origin: 50% 50%;
+     transform-origin:50% 50%;
+     -ms-transform-origin:50% 50%; /* IE 9 */
+     -webkit-animation: spin .9s infinite linear;
+     -moz-animation: spin .9s infinite linear;
+     -o-animation: spin .9s infinite linear;
+     animation: spin .9s infinite linear;
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+table.roster tr:last-child {
+    border-bottom: 1px solid #C3C3C3;
+}
+
+input[type="checkbox"] {
+    margin-left:10px !important;
+}
+.roster-options button {
+    transition:1s;
+}
+
+.roster-options {
+    box-shadow: 0px 0px 5px 0px rgba(165,165,165,0.50);
+    margin-top: -20px;
+    background-color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.roster-options span, .roster-options i {
+    font-size:25px;
+    vertical-align: middle;
+    margin-right:5px;
+    width:30px;
+}
+.mt-20 {
+    margin-top:20px;
+}
+
+@media(max-width:410px) {
+    .title, .edit-stamp {
+        text-align:center;
+    }
+    .pull-left, .pull-right {
+        width:100%;
+    }
+    .edit-stamp {
+        margin-top:2px !important;
+        color: #979797;
+    }
+}
+
+.edit-stamp {
+    color: #979797;
+}
+
+.footer-links {
+    margin-bottom:5px;
+    font-size:10px;
+}
+.footer-copy {
+    font-size:10px;
+}
+
+.roster-options button {
+    height: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 110px;
+    background-color: #FFFFFF;
+}
+.roster-options button a {
+    color: #6E6E6E;
+    text-decoration:none;
+}
+.roster-options button a:hover {
+    color: #6E6E6E;
+    text-decoration:none;
+}
+
+.roster-options button:hover {
+    background-color: #f2f2f2;
+}
+td input {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color:transparent;
+    font-size:11px !important;
+    border-bottom: 1px solid #C1C1C1 !important;
+}
+
+th input {
+    box-shadow:none !important;
+}
+
+#roster-name {
+    font-size:25px;
+    width:100%;
+    box-shadow:none;
+    border:none;
+    font-weight:100;
+}
+th input {
+    font-size:13px !important;
+    border:none;
+}
+.save-fail {
+    background-color:#e51c23 !important;
+    color:#fff;
+}
+.save-success {
+    background-color:#8BC34A !important;
+    color:#fff;
+}
+tr td:first {
+  position:absolute;
+  left:0; 
+  width:100px;
+}
+
+.top-bar {
+    height:10px;
+    width:100%;
+    background-color:#689F38;
+}
+.bg-bar {
+    width:100%;
+    padding: 20px;
+    background-image: radial-gradient(50% 108%, #95C73E 50%, #70A818 100%);
+    box-shadow: 0px 0px 5px 5px rgba(165,165,165,0.50);
+    margin-bottom:20px;
+}
+.bg-bar h1 {
+    color: #fff !important;
+    font-weight:100;
+    margin:0;
+}
+.bg-bar h1 a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.bg-bar h1 a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+/*
+Code for fixed left column
+.control-td {
+    width: 34px !important;
+    position: absolute !important;
+    height: 88px;
+    background-color:#fff;
+    z-index:10;
+    left:15px;
+    border-left:1px solid #c1c1c1;
+}
+.name-td {
+    left:49px;
+    position: absolute !important;
+    width: 100px !important;
+    height:88px;
+    background-color:#fff;
+    z-index:10;
+}
+*/
+.name-td input {
+    border-bottom:none !important;
+    max-width:100% !important;
+}
+td {
+    position: relative;
+}
+.mb-30 {
+    margin-bottom:30px;
+}
+.mt-30 {
+    margin-top:30px;
+}
+.date-th span {
+    font-size: 16px;
+    vertical-align: middle;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+.move-row, .remove-row {
+    cursor:pointer;
+}
+
+@media (max-width:768px) {
+    .roster-options button {
+        width:100%;
+        text-align: left;
+        display: block;
+        border-bottom: 1px solid #f2f2f2;
+        font-size:15px;
+    }
+    .roster-options i, .roster-options span {
+        margin-left:10px;
+    }
+}
+h4.title {
+    margin-top:20px;
+}
+@media screen {
+    .only-print {
+        display:none;
+    }
+/*
+    thead.roster, th input {
+        background-color: #8BC34A;
+        color: #fff;
+    }
+*/
+    th input, p.date {
+        font-weight:300;
+    }
+}
+.alert {
+    position: absolute;
+    left: 15px;
+    bottom:20px;
+}
